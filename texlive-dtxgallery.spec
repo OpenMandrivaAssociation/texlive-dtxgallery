@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /info/dtxgallery
+# catalog-date 2008-08-18 13:49:16 +0200
+# catalog-license lppl
+# catalog-version 1
 Name:		texlive-dtxgallery
 Version:	1
 Release:	1
@@ -35,6 +41,7 @@ example of producing LaTeX packages in this way.
 %doc %{_texmfdistdir}/source/latex/dtxgallery/dtxgallery.dtx
 %doc %{_texmfdistdir}/source/latex/dtxgallery/rearrange.dtx
 %doc %{_texmfdistdir}/source/latex/dtxgallery/single-source.dtx
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -45,3 +52,5 @@ example of producing LaTeX packages in this way.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
