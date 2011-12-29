@@ -17,9 +17,6 @@ Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dtxgallery.source
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
-Conflicts:	texlive-source <= 20110705-3
 
 %description
 A collection of files that demonstrate simple things that are
@@ -41,7 +38,6 @@ example of producing LaTeX packages in this way.
 %doc %{_texmfdistdir}/source/latex/dtxgallery/dtxgallery.dtx
 %doc %{_texmfdistdir}/source/latex/dtxgallery/rearrange.dtx
 %doc %{_texmfdistdir}/source/latex/dtxgallery/single-source.dtx
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,5 +48,3 @@ example of producing LaTeX packages in this way.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc source %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
