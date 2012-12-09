@@ -48,3 +48,17 @@ example of producing LaTeX packages in this way.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1-2
++ Revision: 751099
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1-1
++ Revision: 718268
+- texlive-dtxgallery
+- texlive-dtxgallery
+- texlive-dtxgallery
+- texlive-dtxgallery
+
