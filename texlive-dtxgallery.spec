@@ -6,7 +6,7 @@
 # catalog-version 1
 Name:		texlive-dtxgallery
 Version:	1
-Release:	6
+Release:	7
 Summary:	A small collection of minimal DTX examples
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/dtxgallery
