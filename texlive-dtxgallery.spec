@@ -1,6 +1,6 @@
 Name:		texlive-dtxgallery
 Version:	49504
-Release:	1
+Release:	2
 Summary:	A small collection of minimal DTX examples
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/dtxgallery
