@@ -3,7 +3,7 @@ Version:	49504
 Release:	2
 Summary:	A small collection of minimal DTX examples
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/dtxgallery
+URL:		https://www.ctan.org/tex-archive/info/dtxgallery
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dtxgallery.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dtxgallery.doc.r%{version}.tar.xz
